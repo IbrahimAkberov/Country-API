@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color:bisque;
+}
+.search-container {
+    margin-bottom: 20px;
+}
+.search-container input {
+    padding: 10px;
+    font-size: 16px;
+    width: 90%;
+    margin: 0px  auto;
+    border-color: purple;
+}
+.search-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+  
+    color: azure;
+    border-bottom: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: red;
+
+}
+
+.search-container button:hover{
+    opacity: 0.9;
+    background-color: brown;
+   
+}
+.country-info, .neighboring-countries {
+    
+    margin-top: 40px;
+     width: 600px;
+     margin: 0 auto;
+     background-color: white;
+     border-radius: 5px;
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+     
+    
+
+}
+.neighboring-countries img {
+    width: 120px;
+    height: 80px;
+    margin-right: 10px;
+    margin: 0 auto;
+}
